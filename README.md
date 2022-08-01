@@ -1,7 +1,7 @@
 
 # HTML & CSS PROJECT 9 ![img](https://img.shields.io/badge/PROJECT%209-HTML%20%26%20CSS-orange)
 
-This one is a developer's landing page which created using HTML & CSS. This website is currently not responsive but in coming weeks it will be responsive.
+This one is a developer's landing page which is created using HTML & CSS. This website is currently not responsive but in coming weeks it will be responsive.
 ## Video
 
 
