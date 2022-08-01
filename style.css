@@ -1,0 +1,406 @@
+/* POPPINS FONT FAMILY */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  outline: 0;
+}
+
+body{
+    background-color: #F5F5F5;
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+header{
+  height: 500px;
+  background-color: #4617fe;
+}
+
+nav{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  cursor: pointer;
+}
+
+.nav-item{
+   position: relative;
+   top: 40px;
+   right: 80px;
+   margin-right: 50px;
+   color: #ffffff;
+}
+
+.nav-item-active{
+  background-color: #ffffff;
+  position: relative;
+  top: 40px;
+  right: 80px;
+  padding: 5px 15px;
+  border: none;
+  border-radius: 2px;
+  color: #704cfc;
+}
+
+.nav-item-active + .nav-item{
+  width: 20px;
+  height: 20px;
+  position: relative;
+  top: 40px;
+  right: 50px;
+}
+
+.logo{
+  position: relative;
+  left: 70px;
+  height: 50px;
+}
+
+.header-image{
+  position: absolute;
+  right: 0px;
+  top: 100px;
+  height: 500px;
+}
+
+.header-text img{
+  position: relative;
+  top: 85px;
+  left: 70px;
+  width: 50px;
+}
+
+.header-text h2{
+  font-size: 50px;
+  color: #ffffff;
+  position: relative;
+  top: 100px;
+  left: 68px;
+  font-weight: 400;
+}
+
+.header-text p{
+  font-size: 20px;
+  color: #ffffff;
+  position: relative;
+  top: 110px;
+  left: 70px;
+  font-weight: 400;
+}
+
+.company-items{
+  text-decoration: none;
+  font-family: Righteous;
+  font-size: 25px;
+  font-weight: 500;
+  color: #000000;
+  position: relative;
+  left: 110px;
+  top: 25px;
+  padding-right: 100px;
+}
+
+.api-heading{
+  font-size: 40px;
+  font-weight: 600;
+  position: relative;
+  left: 110px;
+  top: 150px;
+}
+
+.cards{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  position: relative;
+  top: 190px;
+  left: 110px;
+}
+
+ .card-active{
+  border-radius: 15px;
+  background-color: white;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.35);
+  margin: 40px 15px;
+  width: 190px;
+  padding: 45px 25px 10px 25px;
+  height:170px;
+  position: relative;
+  top: -30px;
+}
+
+.card-head-active{
+  color: #6640fc;
+}
+
+ .card{
+  width: 190px;
+  padding: 15px;
+  height:170px;
+  border-radius: 15px;
+  margin: 40px 15px;
+}
+
+.card-body{
+  font-size: 13px;
+}
+
+.cards::after{
+  content: ">";
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 35px;
+  height: 45px;
+  width: 45px;
+  border-radius: 45px;
+  background-color: #5a31fc;
+  margin-top: 100px;
+}
+
+.blog-heading{
+  font-size: 20px;
+  font-weight: 900;
+  position: relative;
+  top: 200px;
+  left: 125px;
+}
+
+.blog-heading::after{
+  content: "See All Article";
+  position: relative;
+  left: 1170px;
+  top: -30px;
+  font-weight: 900;
+  color: #5c33fc;
+}
+
+.blog-cards{
+  display: flex;
+  flex-direction: row;
+}
+
+.blog-card{
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  top: 220px;
+  left: 120px;
+  margin-right: -170px;
+}
+
+.blog-author{
+  margin-right: 10px;
+  position: relative;
+  top: 160px;
+  left: -140px;
+  font-size: 15px;
+} 
+
+.blog-card-bottom-image{
+  border: 4px solid #ffffff;
+  border-radius: 60px;
+  position: relative;
+  top: 310px;
+  left: -280px;
+  margin-right: 15px;
+}
+
+.blog-content{
+  background-color: #ffffff;
+  height: 351px;
+  width: 336px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  text-align: left;
+}
+
+.blog-content h6{
+  margin-left: 50px;
+  margin-top: 40px;
+  color: #552afd;
+}
+
+.blog-content h3{
+  margin-left: 50px;
+  margin-top: 10px;
+}
+
+.blog-content small,br{
+  position: relative;
+  top: 20px;
+  left: 50px;
+  font-weight: 500;
+}
+
+.blog-image img{
+  height: 350px;
+}
+
+
+.faq-section{
+  height: 406px;
+  background-color: #e9edff;
+  position: relative;
+  top: 300px;
+}
+
+.faq-image{
+  position: absolute;
+  right:0px;
+  top: 0px;
+}
+
+.faq-image img{
+  width: 750px;
+}
+
+.faq-content{
+  position: relative;
+  left: 75px;
+  top: 50px;
+}
+
+.faq-content h2{
+  font-weight: bolder;
+  font-size: 40px;
+}
+
+.faq-content h4{
+  font-weight: 100;
+  margin-top: 10px;
+}
+
+.faq-content h4 + h4{
+  margin-top: 20px;
+}
+
+.faq-content button{
+  background: #5A31FC;
+  border-radius: 3px;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 25px;
+}
+
+.download-section{
+  position: relative;
+  top: 440px;
+  left: 80px;
+}
+
+span{
+  font-weight: 100;
+}
+
+.download-email{
+  position: relative;
+  top: -60px;
+  left: 700px;
+}
+
+input{
+  background-color: #e9edff;
+  padding: 20px 470px 20px 30px;
+  border: none;
+  border-radius: 50px;
+  color: #000000;
+}
+
+form button{
+  background: #5A31FC;
+  border-radius: 30px;
+  color: white;
+  border: none;
+  padding: 15px 40px;
+  position: relative;
+  left: -160px;
+}
+
+.footer-section{
+  position: relative;
+  top: 500px;
+  background-color:#4718fe;
+  height: 300px;
+}
+
+.footer-logo{
+  position: relative;
+  top: 100px;
+  left: 70px;
+  height: 50px;
+}
+
+.list-items{
+  display: inline;
+  position: relative;
+  top: 130px;
+  left: 70px;
+  margin-right: 50px;
+  color: #ffffff;
+}
+
+.footer-logos{
+  height: 40px;
+  margin-right: 15px;
+  position: relative;
+  left: 1280px;
+  top: 20px;
+}
+
+.logos-list{
+  position: relative;
+  top: -70px;
+  left: 1125px;
+}
+
+.list>.list-items:first-child::after{
+  content: "|";
+  color: #000000;
+  position: relative;
+  left: 130px;
+  color: #ffffff;
+}
+
+.list>.list-items:nth-child(2)::after{
+  content: "|";
+  color: #000000;
+  position: relative;
+  left: 120px;
+  color: #ffffff;
+}
+
+.list>.list-items:nth-child(3)::after{
+  content: "|";
+  color: #000000;
+  position: relative;
+  left: 125px;
+  color: #ffffff;
+}
+
+.logos-list>.list-items:first-child::after{
+  content: "|";
+  color: #000000;
+  position: relative;
+  left: 25px;
+  color: #ffffff;
+}
+
+.logos-list>.list-items:nth-child(2)::after{
+  content: "|";
+  color: #000000;
+  position: relative;
+  left: 25px;
+  color: #ffffff;
+}
+
+button,li {
+  cursor: pointer;
+}
